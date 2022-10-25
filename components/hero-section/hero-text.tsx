@@ -5,7 +5,9 @@ import uuid from 'react-uuid'
 type Props = {}
 
 const HeroText: FC<Props> = (): JSX.Element => {
-	const [uuidString, setUuidString] = useState<string>(uuid())
+	const [uuidString, setUuidString] = useState<string>(
+		'3924fe30-359b-b5d7-f501-68b7d51ff1d3'
+	)
 
 	return (
 		<div className='h-[500px] max-w-sm md:max-w-5xl m-auto flex flex-col items-center justify-center'>
